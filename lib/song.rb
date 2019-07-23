@@ -38,7 +38,7 @@ class Song
       self
     else
       self.create_by_name(name)
-      self.name
+      
     end
   end
 
