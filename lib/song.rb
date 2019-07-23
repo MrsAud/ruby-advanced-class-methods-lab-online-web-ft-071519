@@ -40,6 +40,7 @@ class Song
       self.create_by_name(name)
       
     end
+    self
   end
 
 end
