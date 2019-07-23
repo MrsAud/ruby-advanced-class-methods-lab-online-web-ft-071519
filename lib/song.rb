@@ -37,6 +37,7 @@ class Song
     if self.find_by_name(name)
     else
       self.create_by_name(name)
+      return self.name
     end
     self
   end
