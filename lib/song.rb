@@ -42,8 +42,8 @@ class Song
   end
   
   def self.alphabetical
-    self.all.each do |song| song.name
-    self.all.sort_by {|a, b| a <=> b}
+    self.all.each {|song| song.name.sort!}
+#    self.all.sort_by {|a, b| a <=> b}
   end
 
 end
